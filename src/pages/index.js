@@ -1,0 +1,17 @@
+export { default as Dashboard } from "./dashboard/Dashboard";
+export { default as Login } from "./login/Login";
+export { default as Signup } from "./signup/Signup";
+export { default as ForgotPassword } from "./forgotPassword/ForgotPassword";
+export { default as OtpVerification } from "./otpVerification/OtpVerification";
+export { default as UpdatePassword } from "./updatePassword/UpdatePassword";
+export { default as AboutUs } from "./aboutUs/AboutUs";
+export { default as LocationPage } from "./locationPage/LocationPage";
+export { default as Services } from "./services/Services";
+export { default as Specials } from "./specials/Specials";
+export { default as ContactPage } from "./contactPage/ContactPage";
+export { default as ReviewsPage } from "./reviewsPage/ReviewsPage";
+export { default as ServiceDetail } from "./serviceDetail/ServiceDetail";
+export { default as Profile } from "./profile/Profile";
+export { default as BookingPage } from "./bookingPage/BookingPage";
+export { default as PaymentPage } from "./paymentPage/PaymentPage";
+export { default as Products } from "./products/Products";

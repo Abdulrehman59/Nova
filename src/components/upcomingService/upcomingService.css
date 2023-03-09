@@ -1,0 +1,19 @@
+.nova-my-profile-my_service-upcoming-service-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5.4rem;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}
+
+/* ----------Media Query-------------------- */
+@media screen and (max-width: 660px) {
+  .nova-my-profile-my_service-upcoming-service-main-container {
+    padding: 0 1rem;
+  }
+  .nova-my-profile-upcoming_card-calender-icon-container p {
+    margin-right: 0;
+    font-size: 1.2rem;
+  }
+}
