@@ -9,31 +9,31 @@ const Navbar = () => {
   const Menu = () => (
     <>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/' ? 'solid' : 'none', }} >Home</h1>
+        <h1 onClick={() => navigate('/')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/' || window.location.href === 'https://nova-abdulrehman59.vercel.app/' ? 'solid' : 'none', }} >Home</h1>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/aboutus')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/aboutus' ? 'solid' : 'none' }}>About Us</h1>
+        <h1 onClick={() => navigate('/aboutus')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/aboutus' || window.location.href === 'https://nova-abdulrehman59.vercel.app/aboutus' ? 'solid' : 'none' }}>About Us</h1>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/locationpage')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/locationpage' ? 'solid' : 'none' }}>Locations</h1>
+        <h1 onClick={() => navigate('/locationpage')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/locationpage' || window.location.href === 'https://nova-abdulrehman59.vercel.app/locationpage' ? 'solid' : 'none' }}>Locations</h1>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/services')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/services' ? 'solid' : 'none' }}>Services</h1>
+        <h1 onClick={() => navigate('/services')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/services' || window.location.href === 'https://nova-abdulrehman59.vercel.app/services' ? 'solid' : 'none' }}>Services</h1>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/specials')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/specials' ? 'solid' : 'none' }}>Specials</h1>
+        <h1 onClick={() => navigate('/specials')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/specials' || window.location.href === 'https://nova-abdulrehman59.vercel.app/specials' ? 'solid' : 'none' }}>Specials</h1>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/products')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/products' ? 'solid' : 'none' }}>Products</h1>
+        <h1 onClick={() => navigate('/products')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/products' || window.location.href === 'https://nova-abdulrehman59.vercel.app/products' ? 'solid' : 'none' }}>Products</h1>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/reviewspage')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/reviewspage' ? 'solid' : 'none' }}>Reviews</h1>
+        <h1 onClick={() => navigate('/reviewspage')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/reviewspage' || window.location.href === 'https://nova-abdulrehman59.vercel.app/reviewspage' ? 'solid' : 'none' }}>Reviews</h1>
       </div>
-      <div style={{ backgroundColor: window.location.href === 'http://localhost:3000/bookingpage' ? '#ffffff' : '#292929' }} className='nova__navbar-links_book_now_button'>
-        <h2 style={{ color: window.location.href === 'http://localhost:3000/bookingpage' ? '#EE509C' : '#ffffff' }} onClick={() => navigate('/bookingpage')}>Book Now</h2>
+      <div style={{ backgroundColor: window.location.href === 'http://localhost:3000/bookingpage' || window.location.href === 'https://nova-abdulrehman59.vercel.app/bookingpage' ? '#ffffff' : '#292929' }} className='nova__navbar-links_book_now_button'>
+        <h2 style={{ color: window.location.href === 'http://localhost:3000/bookingpage' || window.location.href === 'https://nova-abdulrehman59.vercel.app/bookingpage' ? '#EE509C' : '#ffffff' }} onClick={() => navigate('/bookingpage')}>Book Now</h2>
       </div>
       <div className='nova__navbar-links_text_view'>
-        <h1 onClick={() => navigate('/contactpage')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/contactpage' ? 'solid' : 'none' }}>Contact Us</h1>
+        <h1 onClick={() => navigate('/contactpage')} style={{ borderBottomStyle: window.location.href === 'http://localhost:3000/contactpage' || window.location.href === 'https://nova-abdulrehman59.vercel.app/contactpage' ? 'solid' : 'none' }}>Contact Us</h1>
       </div>
     </>
   )
